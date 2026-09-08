@@ -1,35 +1,30 @@
 # ==========================================
 # Unreal Engine 5 Generated Folders
 # ==========================================
-Binaries/
-Build/
-DerivedDataCache/
-Intermediate/
-Saved/
+# サブフォルダ内（ProjectStudy/など）を含むすべての生成フォルダを除外
+**/Binaries/
+**/Build/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
 
 # ==========================================
-# Auto-generated project files
+# Auto-generated project files & IDEs
 # ==========================================
 *.sln
 *.xcodeproj
 *.xcworkspace
 
-# IDE specific files
 .vs/
 .idea/
 .vscode/
 
 # Plugins generated files
-Plugins/*/Binaries/
-Plugins/*/Intermediate/
+**/Plugins/*/Binaries/
+**/Plugins/*/Intermediate/
 
 # ==========================================
 # OS Generated Files
 # ==========================================
 .DS_Store
 Thumbs.db
-
-# ==========================================
-# Git LFS (Large File Storage) Candidate Notes
-# ※容量の大きいバイナリファイルはGit LFSでの管理を推奨します
-# ==========================================
